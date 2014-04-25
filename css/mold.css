@@ -227,6 +227,28 @@ img.with-easing:hover {
     display: block;
     clear: both;
   }
+
+  /* Responsive nav */
+  ul.nav-menu {  height: auto; }
+  ul.nav-menu > li {  float: none; width: 100%; }
+  ul.nav-menu a { line-height: 40px; }
+  ul.nav-menu ul { position: relative; }
+}
+
+/* Responsive Nav */
+@media all and (min-width: 481px) {
+    ul.nav-menu li:hover { background: #555;  }
+    ul.nav-menu li:hover ul { display: block;  }
+}
+
+@media all and (max-width: 480px) {
+    ul.nav-menu {  height: auto; }
+    ul.nav-menu > li {  float: none; width: 100%; }
+    ul.nav-menu a { line-height: 40px; }
+    ul.nav-menu ul { position: relative; }
+
+    ul.nav-menu li.tap { background: #555;  }
+    ul.nav-menu li.tap ul { display: block;  }
 }
 
 * {
@@ -327,3 +349,39 @@ textarea:focus {
     text-align: right;
   }
 }
+
+/* Nav menu */
+ul.nav-menu {  
+    background: #333; 
+    height: 30px;
+    width: 100%; 
+}
+
+ul.nav-menu > li { 
+    float: left; 
+    position: relative;  
+}
+
+ul.nav-menu ul {
+    z-index: 9999;
+    background: #444; 
+    display: none; 
+    position: absolute;
+    left: 0; top: 100%;
+}
+
+ul.nav-menu ul.dropdown > li { padding: 0; }
+
+ul.nav-menu a { 
+    cursor: pointer; 
+    display: block; 
+    color: white; 
+    line-height: 30px; 
+    padding: 0 10px; 
+}
+
+ul.nav-menu li { list-style: none; }
+ul.nav-menu li:hover { background: #555;  }
+ul.nav-menu li:hover ul { display: block;  }
+
+
