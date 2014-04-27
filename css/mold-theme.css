@@ -1,0 +1,8 @@
+/* Nav modifications */
+.nav li a { transition: background .2s ease-in-out; }
+ul.nav li a { text-shadow: 1px 1px 1px #000 }
+ul.nav li:hover a { background: #4f90d3; }
+ul.nav ul.hidden li a { color: #fff; }
+
+/* Add shadows to h1 tags */
+h1 { text-shadow: 1px 1px 1px #000; }
