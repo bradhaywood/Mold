@@ -309,6 +309,13 @@ img.with-easing:hover {
   box-sizing: border-box;
 }
 
+div.pull-right {
+  display: inline-block;
+  float: right !important;
+  margin-right: 15px;
+}
+
+div.pull-right:after { clear: both; }
 /* Forms */
 
 .form > .form-grp {
