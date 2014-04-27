@@ -12,6 +12,7 @@ ul.nav {
 ul.nav li.pull-right {
   float: right !important;
 }
+ul.nav li.pull-right:after { clear: both; }
 
 ul.nav li.pull-right:last-child { margin-right: -15px; }
 
@@ -44,6 +45,7 @@ ul.nav li a, ul.nav li.nav-brand a {
 	background: #2f3036;
 	text-decoration: none;
 	padding-left: 15px;
+	padding-right: 15px;
 }
 
 ul.nav li.nav-brand a {
@@ -145,4 +147,7 @@ a.nav-toggle:after {
 	
 	ul.nav ul.hidden { position: relative; }
 	ul.nav li { float: left; }
+	ul.nav li.pull-right:last-child {
+	  margin-right: 0;
+	}
 }
