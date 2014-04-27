@@ -4,6 +4,9 @@ ul.nav {
 	padding:0;
 	position: relative;
 	min-height: 45px;
+	background: #333;
+	height: 50px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
 
 ul.nav ul.hidden {
@@ -33,9 +36,18 @@ ul.nav li a {
 	text-decoration: none;
 }
 
+ul.nav li.nav-brand a {
+  font-size: 25px;
+  background: transparent;
+  color: #fff;
+}
 /*Hover state for top level links*/
 ul.nav li:hover a {
 	background: #19c589;
+}
+
+ul.nav li.nav-brand:hover a {
+  background: transparent;
 }
 
 /*Style for dropdown links*/
@@ -79,11 +91,28 @@ ul.nav li a:hover + .hidden, .hidden:hover {
 a.nav-toggle {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
+	font-size: 25px;
+	line-height: 30px;
 	color: #fff;
-	background: #19c589;
+	background: #333;
 	text-align: center;
-	padding: 10px 0;
+	padding-top: 10px;
+	margin: 0;
 	display: none;
+	height: 50px;
+}
+
+ul.nav li.nav-brand .nav-toggle {
+  display: none;
+  color: #fff;
+}
+
+a.nav-toggle:after {
+  float: right;
+  padding-right: 20px;
+  font-family: FontAwesome;
+  content: "\f03a";
+  clear:both;
 }
 
 /*Responsive Styles*/
@@ -96,20 +125,15 @@ a.nav-toggle {
 	}
 	/*Create vertical spacing*/
 	ul.nav li {
-		margin-bottom: 1px;
+		/*margin-bottom: 1px;*/
 	}
 	/*Make all menu links full width*/
 	ul.nav li, ul.nav li a {
 		width: 100%;
 	}
 	/*Display 'show menu' link*/
-	a.nav-toggle {
-		display:block;
-	}
-	/*Make 'show menu' link work*/
-	a.nav-toggle:focus + ul {
-		display:block;
-	}
+	ul.nav li.nav-brand { display: block; }
+	a.nav-toggle { display: block; }
 	
 	ul.nav ul.hidden { position: relative; }
 }
