@@ -125,6 +125,17 @@ a:hover {
   border-color: #ccccf7;
 }
 
+.btn-dark {
+  color: #333;
+  border-color: #ccc;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #555;
+}
+
 .btn-blue:hover {
   color: #fff;
   background-color: #0461be;
@@ -386,29 +397,32 @@ textarea:focus {
   }
 }
 
+/* Media Objects */
 .media,
 .media-body {
   overflow: hidden;
   zoom: 1;
 }
 .media,
-.media .media {
-  margin-top: 15px;
-}
-.media:first-child {
-  margin-top: 0;
-}
-.media-object {
-  display: block;
-}
-.media-heading {
-  margin: 0 0 5px;
-}
-.media > .pull-left {
-  margin-right: 10px;
-}
-.media > .pull-right {
-  margin-left: 10px;
+.media .media { margin-top: 15px; }
+.media:first-child { margin-top: 0; }
+.media-object { display: block; }
+.media-heading { margin: 0 0 5px; }
+.media > .pull-left { margin-right: 10px; }
+.media > .pull-right { margin-left: 10px; }
+
+/* Wells */
+.info-box {
+  min-height: 20px;
+  padding: 19px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 .container:before,
