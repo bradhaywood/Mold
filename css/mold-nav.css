@@ -76,7 +76,7 @@ ul.nav li a:hover + .hidden, .hidden:hover {
 }
 
 /*Style 'show menu' link and hide it by default*/
-a.clickable {
+a.nav-toggle {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: #fff;
@@ -103,11 +103,11 @@ a.clickable {
 		width: 100%;
 	}
 	/*Display 'show menu' link*/
-	a.clickable {
+	a.nav-toggle {
 		display:block;
 	}
 	/*Make 'show menu' link work*/
-	a.clickable:focus + ul {
+	a.nav-toggle:focus + ul {
 		display:block;
 	}
 	

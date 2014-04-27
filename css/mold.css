@@ -121,7 +121,7 @@ a:hover {
 
 .btn-blue {
   color: #fff;
-  background-color: #007fff;
+  background-color: #19c589;
   border-color: #ccccf7;
 }
 
@@ -350,7 +350,7 @@ input[type=url]:focus,
 input[type=password]:focus,
 textarea:focus {
   outline: 0;
-  border-color: #4697e4;
+  border-color: #19c589;
 }
 
 @media (max-width: 768px) {
