@@ -40,10 +40,18 @@ body {
   box-sizing: border-box;
 }
 
-.col-twelve { width: 100%; }
-.col-six { width: 50%; }
+.col-one { width: 8.33333333%; }
+.col-two { width: 16.66666667%; }
 .col-three { width: 25%; }
+.col-four { 33.33333333%; }
+.col-five { 41.66666667%; }
+.col-six { width: 50%; }
 .col-seven { width: 58.33333333%; }
+.col-eight { width: 66.66666667%; }
+.col-nine { width: 75%; }
+.col-ten { width: 83.33333333%; }
+.col-eleve { width: 91.66666667%; }
+.col-twelve { width: 100%; }
 
 .col-wrap-mob { display: none; }
 
