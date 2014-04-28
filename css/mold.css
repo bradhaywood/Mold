@@ -241,6 +241,40 @@ img.with-easing:hover {
  * don't look squished!
  */
 
+@media (max-width: 1200px) {
+  /* Hide and show large screen elements */
+  .hidden-large {
+    display: none;
+  }
+  
+  .visible-large {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  /* Hide and show medium screen elements */
+  .hidden-medium {
+    display: none;
+  }
+  
+  .visible-medium {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide and show tablet elements */
+  .hidden-tablet {
+    display: none;
+  }
+  
+  .visible-tablet {
+    display: block;
+  }
+
+  .col-four { width: 50%; }  
+}
+
 @media (max-width: 480px) {
   .container {
     width: auto;
@@ -256,6 +290,8 @@ img.with-easing:hover {
   .col-ten, .col-eleven, .col-twelve {
     float: left;
   }
+
+  .col-four { width: 100%; }
 
   .col-six {
     width: 100%;
@@ -287,38 +323,8 @@ img.with-easing:hover {
   }
 }
 
-@media (max-width: 768px) {
-  /* Hide and show tablet elements */
-  .hidden-tablet {
-    display: none;
-  }
-  
-  .visible-tablet {
-    display: block;
-  }
-}
 
-@media (max-width: 992px) {
-  /* Hide and show medium screen elements */
-  .hidden-medium {
-    display: none;
-  }
-  
-  .visible-medium {
-    display: block;
-  }
-}
 
-@media (max-width: 1200px) {
-  /* Hide and show large screen elements */
-  .hidden-large {
-    display: none;
-  }
-  
-  .visible-large {
-    display: block;
-  }
-}
 
 * {
   -webkit-box-sizing: border-box;
