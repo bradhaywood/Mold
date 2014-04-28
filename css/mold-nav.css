@@ -9,6 +9,9 @@ ul.nav {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
 
+ul.nav.with-easing li a { transition: background .2s ease-in-out; }
+ul.nav.with-easing li ul a { transition: background .2s ease-in-out; }
+
 ul.nav.nav-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
