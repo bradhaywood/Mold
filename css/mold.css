@@ -119,6 +119,17 @@ a:hover {
   border-color: #fafafa;
 }
 
+.btn-primary {
+  color: #1a1a1a;
+  background-color: #00bcf2;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #004d8c;
+}
+
 .btn-blue {
   color: #fff;
   background-color: #0072c6; 

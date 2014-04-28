@@ -1,8 +1,37 @@
 /* Nav modifications */
-body { margin-top: 70px; }
-ul.nav li ul { opacity: 0.8; }
-ul.nav li:hover a { background: #4f90d3; }
-ul.nav ul.hidden li a { color: #fff; }
+body {
+  margin-top: 80px;
+  background: #ededf0; 
+}
 
+/* override headings */
+h1 {
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 55px;
+}
+  
+ul.nav li ul { opacity: 0.8; }
+ul.nav ul.hidden li a { color: #fff; }
 /* Add shadows to h1 tags */
-h1 { text-shadow: 1px 1px 1px #000; }
+
+/* Hero banner */
+.hero-banner {
+  position: absolute;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  left: 0;
+  background: #3F3F3F;
+  color: #fff;
+}
+
+.content-box {
+  padding: 15px 30px;
+  background: #fff;
+  min-height: 40px;
+}
+  

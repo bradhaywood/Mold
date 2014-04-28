@@ -79,7 +79,7 @@ ul.nav li.nav-brand a {
 }
 /*Hover state for top level links*/
 ul.nav li:hover a {
-	background: #3596dd;
+	background: #00bcf2;
 }
 
 ul.nav li.nav-brand:hover a {
@@ -96,7 +96,7 @@ ul.nav li:hover ul a {
 
 /*Hover state for dropdown links*/
 ul.nav li:hover ul a:hover {
-	background: #3596dd !important;
+	background: #00bcf2 !important;
 	color: #fff !important;
 }
 
