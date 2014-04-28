@@ -40,6 +40,15 @@ ul.nav ul.hidden {
   padding:0;
   border: 1px solid #fafafa;
 }
+
+ul.nav.with-transparency ul.hidden {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
 /*Create a horizontal list with spacing*/
 ul.nav li, ul.nav li.nav-brand {
 	display:block;
