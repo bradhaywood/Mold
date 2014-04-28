@@ -1,9 +1,13 @@
 $(function() {
-  $('a.nav-toggle').click(function() {
-    $('ul.nav').toggle();
+  /* Nav stuff */
+  var ulNav = $('ul.nav'),
+      navToggle = $('a.nav-toggle');
+
+  navToggle.click(function() {
+    ulNav.toggle();
   });
 
-  $('a.nav-toggle').blur(function() {
-    $('ul.nav').toggle();
+  navToggle.blur(function() {
+    ulNav.toggle();
   });
 });
