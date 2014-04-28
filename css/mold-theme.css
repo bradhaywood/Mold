@@ -4,6 +4,10 @@ body {
   background: #ededf0; 
 }
 
+@media (max-width: 768px) {
+  body { margin-top: 0; }
+}
+
 /* override headings */
 h1 {
   font-size: 43px;
