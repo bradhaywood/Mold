@@ -121,7 +121,7 @@ a:hover {
 
 .btn-blue {
   color: #fff;
-  background-color: #19c589;
+  background-color: #0072c6; 
   border-color: #ccccf7;
 }
 
@@ -138,7 +138,7 @@ a:hover {
 
 .btn-blue:hover {
   color: #fff;
-  background-color: #0461be;
+  background-color: #3596dd;
 }
 
 .btn.with-easing {

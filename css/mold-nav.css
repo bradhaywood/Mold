@@ -4,7 +4,7 @@ ul.nav {
 	padding:0;
 	position: relative;
 	min-height: 50px;
-	background: #333;
+	background: #1a1a1a; 
 	height: 50px;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
@@ -35,7 +35,7 @@ ul.nav ul.hidden {
   z-index: 9999;
   margin: 0;
   padding:0;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #fafafa;
 }
 /*Create a horizontal list with spacing*/
 ul.nav li, ul.nav li.nav-brand {
@@ -54,7 +54,7 @@ ul.nav li a, ul.nav li.nav-brand a {
 	line-height: 50px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
-	background: #2f3036;
+	background: #1a1a1a;
 	text-decoration: none;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -67,7 +67,7 @@ ul.nav li.nav-brand a {
 }
 /*Hover state for top level links*/
 ul.nav li:hover a {
-	background: #19c589;
+	background: #3596dd;
 }
 
 ul.nav li.nav-brand:hover a {
@@ -76,16 +76,16 @@ ul.nav li.nav-brand:hover a {
 
 /*Style for dropdown links*/
 ul.nav li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
+	/*background: #3596dd !important;*/
+	color: #1a1a1a !important;
 	height: 40px;
 	line-height: 40px;
 }
 
 /*Hover state for dropdown links*/
 ul.nav li:hover ul a:hover {
-	background: #19c589;
-	color: #fff;
+	background: #3596dd !important;
+	color: #fff !important;
 }
 
 /*Hide dropdown links until they are needed*/
@@ -118,7 +118,7 @@ a.nav-toggle {
 	font-size: 25px;
 	line-height: 30px;
 	color: #fff;
-	background: #333;
+	background: #1a1a1a;
 	text-align: left;
 	padding-top: 10px;
 	padding-left: 15px;
@@ -138,6 +138,10 @@ a.nav-toggle:after {
   font-family: FontAwesome;
   content: "\f03a";
   clear:both;
+}
+
+ul.nav li ul li a {
+  background: #fafafa !important; 
 }
 
 /*Responsive Styles*/
