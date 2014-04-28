@@ -8,7 +8,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333;
+  color: #1a1a1a;
 }
 
 .container {
@@ -40,16 +40,16 @@ body {
   box-sizing: border-box;
 }
 
-.col-one { width: 8.33333333%; }
+.col-one { width: 8.1a1a1a1a1a1a33%; }
 .col-two { width: 16.66666667%; }
 .col-three { width: 25%; }
-.col-four { 33.33333333%; }
+.col-four { 33.1a1a1a1a1a1a33%; }
 .col-five { 41.66666667%; }
 .col-six { width: 50%; }
-.col-seven { width: 58.33333333%; }
+.col-seven { width: 58.1a1a1a1a1a1a33%; }
 .col-eight { width: 66.66666667%; }
 .col-nine { width: 75%; }
-.col-ten { width: 83.33333333%; }
+.col-ten { width: 83.1a1a1a1a1a1a33%; }
 .col-eleve { width: 91.66666667%; }
 .col-twelve { width: 100%; }
 
@@ -115,7 +115,7 @@ a:hover {
 
 .btn-default {
   color: #fff;
-  background-color: #333;
+  background-color: #1a1a1a;
   border-color: #fafafa;
 }
 
@@ -126,7 +126,7 @@ a:hover {
 }
 
 .btn-dark {
-  color: #333;
+  color: #1a1a1a;
   border-color: #ccc;
   color: #fff;
 }
@@ -373,7 +373,7 @@ input[type=url]:focus,
 input[type=password]:focus,
 textarea:focus {
   outline: 0;
-  border-color: #19c589;
+  border-color: #0072c6;
 }
 
 @media (max-width: 768px) {
@@ -429,7 +429,7 @@ textarea:focus {
   padding: 19px;
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: #333;
+  background-color: #1a1a1a;
   color: #fff;
   border: 1px solid #e3e3e3;
 }

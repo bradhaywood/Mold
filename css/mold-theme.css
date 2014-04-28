@@ -1,6 +1,6 @@
 /* Nav modifications */
-.nav li a { transition: background .2s ease-in-out; }
-ul.nav li a { text-shadow: 1px 1px 1px #000 }
+body { margin-top: 70px; }
+ul.nav li ul { opacity: 0.8; }
 ul.nav li:hover a { background: #4f90d3; }
 ul.nav ul.hidden li a { color: #fff; }
 
