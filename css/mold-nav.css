@@ -179,3 +179,12 @@ ul.nav li ul li a {
 	  margin-right: 0;
 	}
 }
+
+@media (max-width: 480px) {
+  div.pull-right {
+	  display:inline-block;
+	  float: none !important;
+	  margin-right: 0;
+    width: 100%;
+  }
+}
