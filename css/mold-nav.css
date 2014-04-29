@@ -64,7 +64,7 @@ ul.nav li a, ul.nav li.nav-brand a {
 	height: 50px;
 	text-align: left;
 	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;
 	color: #fff;
 	background: #1a1a1a;
 	text-decoration: none;
@@ -125,7 +125,7 @@ ul.nav li a:hover + .hidden, .hidden:hover {
 
 /*Style 'show menu' link and hide it by default*/
 a.nav-toggle {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Calibri, Candara, Arial, sans-serif;	
 	text-decoration: none;
 	font-size: 25px;
 	line-height: 30px;
