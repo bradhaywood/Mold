@@ -178,9 +178,6 @@ ul.nav li ul li a {
 	ul.nav li.pull-right:last-child {
 	  margin-right: 0;
 	}
-}
-
-@media (max-width: 480px) {
   div.pull-right {
 	  display:inline-block;
 	  float: none !important;
