@@ -467,6 +467,7 @@ button, textarea {
 /* Tables */
 p { 0 0 10.5px; }
 td, th { padding: 0; line-height: 14px; }
+th { text-align: left; }
 
 .table td,
 .table th {
