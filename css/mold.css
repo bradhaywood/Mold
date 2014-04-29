@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #1a1a1a;
+  margin: 0;
 }
 
 .container {
@@ -341,6 +342,12 @@ div.pull-right {
 div.pull-right:after { clear: both; }
 /* Forms */
 
+input, select
+button, textarea {
+  font: inherit;
+  margin: 0;
+}
+
 .form > .form-grp {
   clear: both;
   overflow: hidden;
@@ -370,11 +377,11 @@ div.pull-right:after { clear: both; }
   transition: border .3s ease-in-out;
 }
 
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password],
-textarea {
+.form input[type=text],
+.form input[type=email],
+.form input[type=url],
+.form input[type=password],
+.form textarea {
   /*width: 100%;*/
   border-top: 1px solid #ccc;
   border-right: 1px solid #eee;
@@ -383,18 +390,18 @@ textarea {
   padding: 5px;
 }
 
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password] {
+.form input[type=text],
+.form input[type=email],
+.form input[type=url],
+.form input[type=password] {
   width: 50%;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-textarea:focus {
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form input[type=url]:focus,
+.form input[type=password]:focus,
+.form textarea:focus {
   outline: 0;
   border-color: #0072c6;
 }
@@ -456,6 +463,10 @@ textarea:focus {
   color: #fff;
   border: 1px solid #e3e3e3;
 }
+
+/* Tables */
+
+td { margin: 0; }
 
 .container:before,
 .container:after,
