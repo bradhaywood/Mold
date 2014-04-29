@@ -465,8 +465,8 @@ button, textarea {
 }
 
 /* Tables */
-
-td { margin: 0; }
+p { 0 0 10.5px; }
+td, th { padding: 0; line-height: 14px; }
 
 .container:before,
 .container:after,
